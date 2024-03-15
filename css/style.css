@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik";
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  border: 1px solid red;
+  margin: 100px auto;
+  background-color: #fff;
+}
+.wrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+.header {
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar__logo {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navbar__price {
+  display: flex;
+  gap: 45px;
+}
+.navbar__span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #285193;
+}
+
+.navbar__text {
+  color: grey;
+  font-weight: 500;
+}
+
+.navbar__btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  /* Rectangle 5 */
+  width: 146px;
+  /* height: 40px; */
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+.navbar__btn:hover {
+  background: linear-gradient(90deg, #15759e 15.07%, #459bc0 85.96%);
+}
+.navbar__btn:active{
+  background: linear-gradient(90deg, #15759e 15.07%, #0f4f6a 85.96%);
+
+}
+.navbar__list {
+  background-color: #f6f6f6;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.navbar__link {
+  /* Узбекистана Мир Экономика Политика Общество Технологии Спорт Культура Происшествия Туризм */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #515151;
+}
+
+.navbar__banner {
+  margin-top: 50px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.intro {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro__hr {
+  height: 60px;
+  width: 3px;
+  background-color: black;
+}
+
+.intro__card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.intro__text {
+  width: 230px;
+  /* Коронавирус COVID-19 в Узбекистане */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 100px auto;
+}
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cards__text {
+  /* Мирзиёев рассказал, зачем было построено Сардобинское водохранилище */
+
+  width: 380px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #202020;
+}
+.cards__date {
+  /* 05:28 / 16.05.2020 */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #6b6d97;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efba54;
+  border-radius: 10px;
+  padding: 15px;
+}
+.notification__box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.text {
+  /* Хотите узнать новости первыми? подключите уведомления! */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.notification__btn {
+  /* Rectangle 30 */
+
+  width: 264px;
+  height: 42px;
+
+  /* ss */
+  background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+  );
+  border-radius: 5px;
+  border: none;
+  /* Включит уведомления! */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.notification__btn:hover {
+  background: linear-gradient(90deg, #ea501c 0%, rgba(179, 91, 29, 0.9) 88.43%);
+}
